@@ -89,22 +89,33 @@
     background: rgba(44, 73, 254, 0.1);
     border-radius: 23px;
     padding: 11px 28px;
+    z-index: 2;
 }
 
-.table-h {
+.service {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
 }
-
-.table {
+.name {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     color: #FFFFFF;
+}
+.about{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
 }
 
 .btn-2 {
@@ -266,6 +277,16 @@
 .btnnav:hover {
     cursor: pointer;
 }
+.comment-btn{
+    width: 208px;
+    height: 56px;
+    border-radius: 36px;
+    background: #2C49FE;
+    padding: 11px 28px;
+    color: #FFFFFF;
+    font-weight:600;
+    border: #2C49FE; 
+}
 
 .btn-t {
     width: 208px;
@@ -282,11 +303,9 @@
     top: 0;
     background: #FFFFFF;
     box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.05);
+    z-index: 5;
 }
-
 .btn-3 {
-
-    position: absolute;
     width: 208px;
     background: #2C49FE;
     border-radius: 36px;
@@ -344,6 +363,12 @@
     padding: 14px;
 
 }
+.pad-38{
+    padding-bottom: 38px;
+}
+.marl-20{
+    margin-left: 20px;
+}
 
 .mb-16 {
     margin-bottom: 16px;
@@ -389,6 +414,9 @@
 .img-1 {
     grid-row: 1/2;
     grid-column: 1/2;
+}
+.mt-10{
+    margin-top: 10px;
 }
 
 .img-2 {
